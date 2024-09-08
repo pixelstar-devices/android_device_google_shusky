@@ -29,7 +29,7 @@ EXTRA_UDFPS_ICONS := true
 EXTRA_UDFPS_ANIMATIONS := true
 
 # Build Launcher3 in GAPPS (default is Pixel Launcher)
-TARGET_INCLUDE_PIXEL_LAUNCHER := false
+TARGET_INCLUDE_PIXEL_LAUNCHER := true
 
 # Quick switch (add more than one Launcher in build)
 TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
