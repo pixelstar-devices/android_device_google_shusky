@@ -20,8 +20,8 @@ PRODUCT_MODEL := Pixel 8 Pro
 PRODUCT_NAME := lineage_husky
 
 # Build Flags
-EVEREST_BUILD_TYPE := OFFICIAL
-EVEREST_MAINTAINER := Libra420T
+TENX_BUILD_TYPE := OFFICIAL
+TENX_MAINTAINER := Libra420T
 
 # UDFPS
 TARGET_HAS_UDFPS := true
@@ -30,10 +30,10 @@ EXTRA_UDFPS_ANIMATIONS := true
 
 # Build Launcher3 in GAPPS (default is Pixel Launcher)
 TARGET_INCLUDE_PIXEL_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
 
 # Quick switch (add more than one Launcher in build)
 TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
 
 # Gapps
 WITH_GAPPS := true
